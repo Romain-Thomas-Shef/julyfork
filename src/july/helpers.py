@@ -59,7 +59,7 @@ def cal_heatmap(
     ax: Optional[Axes] = None,
 ):
     if not ax:
-        figsize = (12, 5) if horizontal else (5, 12)
+        figsize = (18, 5) if horizontal else (5, 12)
         fig, ax = plt.subplots(figsize=figsize, dpi=100)
     else:
         fig = ax.get_figure()
@@ -100,7 +100,7 @@ def cal_heatmap(
         ax.set_title(title)
 
     ax.set_frame_on(frame_on)
-    return ax
+    return ax, fig
 
 
 def add_value_label(ax, cal, value_format):

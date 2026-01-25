@@ -1,5 +1,9 @@
-![July](https://github.com/e-hulten/july/blob/master/figs/july.png?raw=true)
-# July
+
+
+# Juillet
+
+**Note: Juillet is based on [July](https://github.com/e-hulten/july) [MIT licensed]. I have forked it and made a few modifications to update to earlier version of matplotlib.**
+
 A small library for creating pretty heatmaps of daily data. 
 
 ### Features
@@ -12,7 +16,7 @@ A small library for creating pretty heatmaps of daily data.
 
 ### Install
 ```
-$ pip install july
+$ pip install juillet
 ```
 
 ### Usage

@@ -11,14 +11,14 @@ import matplotlib.pyplot as plt
 from typing import List, Any, Optional, Union, Tuple
 from matplotlib.pyplot import Axes
 from matplotlib.colors import LinearSegmentedColormap, ListedColormap
-from july.helpers import (
+from juillet.helpers import (
     date_grid,
     cal_heatmap,
     get_month_outline,
     get_calendar_title,
 )
-from july.utils import preprocess_inputs, preprocess_month, unique
-from july.rcmod import update_rcparams
+from juillet.utils import preprocess_inputs, preprocess_month, unique
+from juillet.rcmod import update_rcparams
 
 
 def heatmap(
@@ -99,10 +99,10 @@ def heatmap(
         cmax=cmax,
         cbar_label_format=cbar_label_format,
         ax=ax,
-        optionalfigsize = optionalfigsize
+        customfigsize = customfigsize
     )
 
-    return ax
+    return ax, fig
 
 
 def month_plot(

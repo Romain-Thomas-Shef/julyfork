@@ -7,7 +7,7 @@
 import calendar
 import numpy as np
 import matplotlib.pyplot as plt
-from july.colormaps import cmaps_dict
+from juillet.colormaps import cmaps_dict
 from matplotlib.pyplot import Axes
 from matplotlib.colors import ListedColormap, LinearSegmentedColormap
 from matplotlib.ticker import ScalarFormatter
@@ -63,7 +63,7 @@ def cal_heatmap(
     cmax: Optional[int] = None,
     cbar_label_format: Optional[str] = None,
     ax: Optional[Axes] = None,
-    customfigsize: Optional[tuple] = (12, 5).
+    customfigsize: Optional[tuple] = (12, 5)
 ):
     if not ax:
         figsize = customfigsize if horizontal else (5, 12)

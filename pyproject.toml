@@ -3,7 +3,7 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "july"
+name = "juillet"
 version = "26.1.1"
 readme = 'README.md'
 requires-python = ">=3.9"
